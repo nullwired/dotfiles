@@ -1,1 +1,62 @@
+configuration {
+    modi: "drun";
+    show-icons: true;
+    display-drun: "Apps";
+    drun-display-format: "{name}";
+    disable-history: false;
+    hide-scrollbar: true;
+}
 
+@theme "config"
+
+* {
+    background: #0c0c10;
+    foreground: #e6e6e6;
+    selected: #24242c;
+    active: #ffffff;
+    urgent: #ffffff;
+}
+
+window {
+    width: 520px;
+    border: 1px;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+mainbox {
+    spacing: 8px;
+}
+
+inputbar {
+    padding: 8px;
+    spacing: 8px;
+}
+
+prompt {
+    text-color: #888888;
+}
+
+entry {
+    text-color: #ffffff;
+}
+
+listview {
+    lines: 7;
+    spacing: 4px;
+    dynamic: true;
+}
+
+element {
+    padding: 8px;
+    border-radius: 6px;
+}
+
+element selected {
+    background: #24242c;
+    text-color: #ffffff;
+}
+
+element-text {
+    text-color: #d8d8d8;
+}
