@@ -7,8 +7,6 @@ configuration {
     hide-scrollbar: true;
 }
 
-@theme "config"
-
 * {
     background: #0c0c10;
     foreground: #e6e6e6;
